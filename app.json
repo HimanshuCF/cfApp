@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "CFlow",
+    "slug": "CFlow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "platforms": ["ios", "android"],
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00001A"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.CloutFlow",
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you.",
+        "SKAdNetworkItems": [
+          {
+            "SKAdNetworkIdentifier": "v9wtt.skadnetwork"
+          },
+          {
+            "SKAdNetworkIdentifier": "n38lu.skadnetwork"
+          }
+        ]
+      }
+    },
+    "android": {
+      "permissions": ["CAMERA", "CAMERA", "READ_EXTERNAL_STORAGE"],
+      "package": "com.anonymous.CFlow",
+      "versionCode": 1
+    },
+
+
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b1c7ca55-d671-xxxx-xxxx"
+      }
+    }
+  }
+}
